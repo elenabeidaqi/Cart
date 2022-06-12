@@ -1,0 +1,64 @@
+.container{
+    width:250px;
+    border:1px solid silver;
+    border-radius: 10px;
+    background-color:rgb(230, 235, 236);
+    margin:0 10px 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.cardImage{
+    width:230px;
+    height:200px;
+    margin:10px;
+}
+.container h3 {
+    color: #404040;
+    text-align: left;
+    margin: 25px 20px 15px;
+    font-size: 1.1rem;
+}
+.container p{
+    color: #404040;
+    text-align: left; 
+    margin: 25px 15px;
+    font-size:0.9rem;
+    font-weight:500;
+}
+.linkContainer{
+   display:flex;
+   align-items: center;
+   justify-content:space-between;
+   margin:30px 20px 20px; 
+}
+.linkContainer a{
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 0.95rem;
+}
+.buttonContainer button{
+    background-color:  #1a73e8;
+    border: none;
+    height:25px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 15px;
+    
+}
+.smallButton{
+    width: 30px !important;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height:25px;
+}
+.smallButton img{
+    width:20px;
+    height:20px;
+}
+.counter{
+    color:#1a73e8;
+    display: inline-block;
+    text-align:center;
+    margin-left: 10px;
+    font-weight: 700;
+}

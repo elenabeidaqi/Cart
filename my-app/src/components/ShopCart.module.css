@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin:150px 100px 70px;
+    transition: all 0.2s ease;
+}
+.cartContainer{
+    width:70%;
+}
+.payments{
+    width:25%;
+    background-color: whitesmoke;
+    text-align: left;
+    border:1px solid silver;
+    border-radius:8px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.payments p{
+    color:rgb(70, 70, 70);
+}
+.payments p span{
+    color: #1a73e8;
+    font-weight: bold;
+}
+.buttonContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:50px 20px 20px;
+}
+.checkout{
+    color:#fff;
+    background-color: #34a853;
+    display:inline-block;
+    border:none;
+    height:30px;
+    border-radius:6px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.checkout:hover{
+    background-color: #167d32;
+}
+.clear{
+    color:#fff;
+    background-color: #34a853;
+    display:inline-block;
+    border:none;
+    height:30px;
+    border-radius:6px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.clear:hover{
+    background-color: #167d32;  
+}
+.complete a{
+    display:inline-block;
+    background-color: #1a73e8;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    width:100px;
+    height:35px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    line-height:35px;
+    transition:all 0.3s ease-in;
+}
+.complete a:hover{
+    background-color: #08499d;
+}
+.complete h3{
+    color: #167d32;
+    font-size: 1.2rem;
+}
+@media (max-width: 1200px){
+    .container{
+        margin:120px 80px 40px;
+    }
+}
+@media (max-width: 1050px){
+    .container{
+        flex-direction: column-reverse;
+        align-items:center;
+        margin:120px 80px 40px;
+    }
+    .cartContainer{
+        width:100%;
+    }
+    .payments{
+        width:100%;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+      margin: 120px 40px 50px;
+    }
+}
+  
+  @media (max-width: 555px) {
+    .container {
+      margin: 120px 20px 50px;
+    }
+}
